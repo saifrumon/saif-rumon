@@ -10,6 +10,10 @@ h1{
 .orange-color{
     color: orange;
 }
+.blue-color{
+    color: tomato;
+    font-size: 30px;
+}
 section{
     display: flex;
 }
@@ -27,15 +31,76 @@ section{
     color: white;
     font-weight: bold;
     font-size: 20px;
-    border-radius: 8px;
+    border-radius: 30px;
 }
 .top-ban{
-    background-image: url(/fram1.jpg);
+    background-image: url(fram1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 .about-me{
-    background-image: url(/fram2.png);
+    background-image: url(fram2.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0px 7px 5px gray;
+    
+}
+
+.my-receipe{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+.box{
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 15px;
+    
+
+}
+.box img{
+    width: 100%;
+    border-radius: 15px;
+}
+.grid-view{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-shadow: 5px 10px 15px red;
+    border-radius: 50px;
+}
+.grid{
+    width: 90%;
+    border: 2px solid white;
+    box-shadow: 2px 6px 10px  gray;
+    padding: 10px;
+    border-radius: 20px;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+.gray{
+    color: gray;
 }
