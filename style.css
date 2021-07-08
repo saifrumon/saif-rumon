@@ -8,12 +8,15 @@ h1{
     font-size: 45px;
 }
 .orange-color{
-    color: orange;
+    color: blueviolet;
+    font-size: 55px;
+    font-weight: bold;
 }
 .blue-color{
-    color: tomato;
-    font-size: 30px;
+    color: orange;
+    font-size: 32px;
 }
+
 section{
     display: flex;
 }
